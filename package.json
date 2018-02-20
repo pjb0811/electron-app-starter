@@ -7,14 +7,13 @@
     "react-dom": "^16.2.0",
     "react-scripts-ts": "2.13.0"
   },
-  "main": "src/electron.js",
   "scripts": {
     "start": "cross-env NODE_PATH=src react-scripts-ts start",
-    "start:electron": "electron .",
     "build": "cross-env NODE_PATH=src react-scripts-ts build && tsc -p tsconfig.server.json",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "serve": "yarn build && node build-server/server.js"
+    "serve": "yarn build && node build-server/server.js",
+    "electron": "electron build-server/electron.js"
   },
   "devDependencies": {
     "@types/electron": "^1.6.10",
