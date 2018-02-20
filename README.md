@@ -1,6 +1,7 @@
 # electron-app-starter
 This app is for configuring the initial environment when starting the Electron + React + Typescript project.
 + electron
++ electron-builder
 + create-react-app
 + typescript
 + react-router
