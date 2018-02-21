@@ -35,10 +35,10 @@ Electron + React + Typescript를 이용한 프로젝트용 Starter Kit입니다.
   - express
   - serialize-javascript
 
-+ **module loader/bundler**
++ **Module Loader/bundler**
   - webpack
 
-+ **package manager**
++ **Package Manager**
   - yarn
 
 ### global 설치를 권장하는 라이브러리
