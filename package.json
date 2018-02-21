@@ -20,6 +20,7 @@
     "react:start": "cross-env NODE_PATH=src react-scripts-ts start",
     "pack": "build --dir",
     "dist:osx": "yarn build && build --mac",
+    "dist:win": "yarn build && build --win",
     "postinstall": "install-app-deps"
   },
   "build": {
@@ -42,9 +43,9 @@
       ],
       "icon": "./build/Icon.ico"
     },
-    "nsis":{
-      "oneClick" : false,
-      "allowToChangeInstallationDirectory" :true
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
     },
     "directories": {
       "buildResources": "build/",
@@ -77,6 +78,7 @@
     "cross-env": "^5.1.3",
     "electron": "^1.8.2",
     "electron-builder": "^20.0.6",
+    "foreman": "^2.0.0",
     "immutable": "^3.8.2",
     "react-helmet": "^5.2.0",
     "react-hot-loader": "^4.0.0-beta.17",
