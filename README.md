@@ -10,6 +10,7 @@ OS 환경에 맞는 [nodejs](https://nodejs.org/ko/) 설치가 필요합니다.
 
 ### global 설치를 권장하는 라이브러리
 - electron
+- electron-builder
 - asar
 - create-react-app
 - foreman
@@ -60,7 +61,11 @@ OS 환경에 맞는 [nodejs](https://nodejs.org/ko/) 설치가 필요합니다.
 
 ### 패키지 설치
 ```
-  yarn 
+npm install
+```
+### electron app 실행
+```
+npm electron:start
 ```
 ## 3. 사용법 (Getting Started)
 ## 4. 파일 정보 및 목록 (File Manifest)
