@@ -1,7 +1,25 @@
 # electron-app-starter
 Electron + React + Typescript를 이용한 프로젝트용 Starter Kit입니다.
 
-## 설치 환경
+## 1. 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
++ OS 환경에 맞는 [nodejs](https://nodejs.org/ko/) 설치가 필요합니다.
+
+## nodejs & npm 버전
++ node: v9.3.0
++ npm: 5.6.0
+
+### global 설치를 권장하는 라이브러리
++ electron
++ asar
++ create-react-app
++ foreman
++ typescript
++ tslint
++ webpack
++ yarn
++ cross-env
+
+### 패키지 구성
 + **Electron**
   - electron
   - electron-builder
@@ -41,11 +59,17 @@ Electron + React + Typescript를 이용한 프로젝트용 Starter Kit입니다.
 + **Package Manager**
   - yarn
 
-### global 설치를 권장하는 라이브러리
-+ asar
-+ create-react-app
-+ foreman
-+ typescript
-+ tslint
-+ webpack
-+ yarn
+## 2. 설치 안내 (Installation Process)
+
+### 패키지 설치
+```
+  yarn 
+```
+## 3. 사용법 (Getting Started)
+## 4. 파일 정보 및 목록 (File Manifest)
+## 5. 저작권 및 사용권 정보 (Copyright / End User License)
+## 6. 배포자 및 개발자의 연락처 정보 (Contact Information)
+## 7. 알려진 버그 (Known Issues)
+## 8. 문제 발생에 대한 해결책 (Troubleshooting)
+## 9. 크레딧 (Credit)
+## 10. 업데이트 정보 (Change Log)
