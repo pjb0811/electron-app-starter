@@ -101,7 +101,7 @@ npm run build && build --win
 
 ## 4. 파일 정보 및 목록 (File Manifest)
 ## 5. 저작권 및 사용권 정보 (Copyright / End User License)
-MIT © [http://github.com/pjb0811](pjb0811)
+MIT © [pjb0811](http://github.com/pjb0811)
 ## 6. 배포자 및 개발자의 연락처 정보 (Contact Information)
 - [pjb0811@gmail.com](mailto:pjb0811@gmail.com)
 - [http://github.com/pjb0811](http://github.com/pjb0811)
