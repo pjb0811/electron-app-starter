@@ -63,10 +63,20 @@ OS 환경에 맞는 [nodejs](https://nodejs.org/ko/) 설치가 필요합니다.
 ```
 npm install
 ```
-### electron app 실행
+### electron 실행
 ```
-npm electron:start
+npm run electron:start
 ```
+### electron-builder 실행
+- OS X
+```
+npm run build && build --mac
+```
+- Windows
+```
+npm run build && build --win
+```
+
 ## 3. 사용법 (Getting Started)
 ## 4. 파일 정보 및 목록 (File Manifest)
 ## 5. 저작권 및 사용권 정보 (Copyright / End User License)
