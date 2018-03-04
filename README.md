@@ -4,21 +4,6 @@ Electron + React + Typescript를 이용한 프로젝트용 Starter Kit입니다.
 ## 1. 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
 OS 환경에 맞는 [nodejs](https://nodejs.org/ko/) 설치가 필요합니다.
 
-## nodejs & npm 버전
-- node: v9.3.0
-- npm: 5.6.0
-
-### global 설치를 권장하는 라이브러리
-- electron
-- electron-builder
-- asar
-- create-react-app
-- foreman
-- typescript
-- tslint
-- webpack
-- yarn
-
 ### 패키지 구성
 - **Electron**
   - electron
