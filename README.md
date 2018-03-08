@@ -77,11 +77,11 @@ npm run react:start
 ### electron-builder 실행
 - OS X
 ```
-npm run build && build --mac
+npm run dist:osx
 ```
 - Windows
 ```
-npm run build && build --win
+npm run dist:win
 ```
 
 ## 4. 파일 정보 및 목록 (File Manifest)
